@@ -12,7 +12,7 @@ pipeline {
         JAR_FILE_NAME = "app.jar" //복사할 JAR 파일 이름
         PORT = "8081" //컨테이너와 연결할 포트
 
-        REMOTE_USER = "ce2-user" // 원격(spring) 서버 사용자
+        REMOTE_USER = "ec2-user" // 원격(spring) 서버 사용자
         REMOTE_HOST = "13.209.65.81" // 원격(spring) 서버 IP(Public IP)
             
         REMOTE_DIR = "/home/ec2-user/deploy" //원격 서버에 파일 복사할 경로
